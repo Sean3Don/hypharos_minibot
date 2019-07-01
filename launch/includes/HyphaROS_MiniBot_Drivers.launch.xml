@@ -7,7 +7,8 @@
     <arg name="use_imu"          default="false" />
 
     <!-- TF setting -->
-    <include file="$(find hypharos_minibot)/launch/includes/minibot_tf.launch.xml" />
+    <!-- <include file="$(find hypharos_minibot)/launch/includes/minibot_tf.launch.xml" /> -->
+    <include file="$(find hypharos_minibot)/launch/includes/minibot_model.launch.xml" />
 
     <!-- YDLidar -->
     <include file="$(find hypharos_minibot)/launch/includes/minibot_ydlidar.launch.xml" />
